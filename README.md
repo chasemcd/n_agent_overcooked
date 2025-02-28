@@ -31,4 +31,4 @@ associated generator functions to build observations for each agent. Importantly
 
 All of the above are done already in the existing Overcooked implementation in CoGrid and we've demonstrated feature space construction in `overcooked_features.py`. Everything is brought together to construct an environment in `run_env.py`, which will display the environment shown below:
 
-![4-agent Overcooked environment](assets/env_image.png)
+![4-agent Overcooked environment](_assets/env_image.png)
