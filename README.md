@@ -52,3 +52,8 @@ The action space (with some more eloration and variation discussed in `n_agent_o
 - `4`: Pick Up / Drop a held object
 - `5`: Toggle/Interact (unused in Overcooked!)
 - `6`: No-Op
+
+
+### Human-AI Interaction Experiments (and prettier graphics)
+
+The development of CoGrid accompanied [Interactive Gym](https://interactive-gym.readthedocs.io), a platform to turn Gym-style Python environments into web-based experiments. The benefit of this is Interactive Gym runs the Python environment directly in the browser, avoiding any reimplementation of the environment in JavaScript.We've used CoGrid and Interactive Gym together for our existing experiments, which you can see a demo of [at this link](http://janus.hss.cmu.edu:5704/). In Interactive Gym, we can run CoGrid environments and map the objects to sprites, which allows us to use Carroll et al.'s Overcooked sprite assets. 
