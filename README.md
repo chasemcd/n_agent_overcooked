@@ -44,7 +44,7 @@ The rendering used here is inherited from Minigrid. Green squares are delivery z
 
 ### Action Space
 
-The action space (with some more eloration and variation discussed in `n_agent_overooked.py`) is:
+The action space (with some more elaboration and variation discussed in `n_agent_overooked.py`) is:
 
 - `0`: Move Up
 - `1`: Move Down
