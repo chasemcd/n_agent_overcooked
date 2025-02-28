@@ -10,6 +10,7 @@ The primary dependency is `cogrid`, our library for creating multi-agent grid-ba
 
 ```bash
 $ conda create -n n_agent_overcooked python=3.10
+$ conda activate n_agent_overcooked
 $ pip install -r requirements.txt
 ```
 
